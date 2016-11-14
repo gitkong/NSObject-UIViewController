@@ -23,6 +23,8 @@
     firstView.backgroundColor = [UIColor redColor];
     firstView.center = self.view.center;
     [self.view addSubview:firstView];
+    
+    NSLog(@"FLFirstViewController---%p",self);
 }
 
 

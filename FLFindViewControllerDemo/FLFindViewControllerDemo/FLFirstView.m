@@ -16,7 +16,7 @@
     FLSecondViewController *vc = [[FLSecondViewController alloc] init];
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    
+    NSLog(@"FLFirstView---%p",self.fl_viewController);
     [self.fl_viewController presentViewController:nav animated:YES completion:nil];
 }
 
